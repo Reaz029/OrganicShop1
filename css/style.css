@@ -1,0 +1,115 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.h1{
+    text-align:center;
+}
+.section-1{
+    background-image: url(../img/1.jpg);
+    width: 100%;
+    height:100vh;
+    position:relative;
+ 
+   background-position:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+  
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    z-index:2;
+    
+}
+.button1 {
+    z-index: 2;
+    text-align: center;
+    left: 1300px;
+    position: sticky;
+    font:menu;
+    margin-top: 10px;
+    font-weight: 500;
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+ letter-spacing:2px;
+}
+
+
+   
+.button1 {
+    background-color: white;
+    
+    border: 2px solid #4CAF50;
+}
+
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+.IntroText {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    
+}
+    .IntroText h1 {
+        color: #112433;
+        line-height: 1.2;
+        padding: 0;
+        letter-spacing: -1px;
+        font-weight: 400;
+        font-size: 60px;
+    }
+    .IntroText p {
+        font-weight: 400;
+        margin-top: 30px;
+        color: aliceblue;
+        line-height: 1.2;
+        letter-spacing: 2px;
+    
+    }
+.section-2 {
+    background-color: #F9FAFF;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+        .section-2 p {
+            margin-top: 20px;
+            letter-spacing: 2px;
+            color: black;
+            font-family: inherit;
+            font-weight: 400;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 28px;
+            color: #758799;
+        }
+        .section-3 row{
+           
+           max-width:100%;
+           background-color:burlywood;
+        }
+.section-3 img {
+    position:relative;
+    padding:20px;
+    height: 500px;
+    width: 100%;
+    top:70px;
+}
+p {
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+}
+p:hover{
+    color:yellow;
+}
